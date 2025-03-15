@@ -1,4 +1,4 @@
-package Synchronization;
+package InterThreadCommunication;
 
 public class SharedQueue {
     private int item = -1; // Shared item

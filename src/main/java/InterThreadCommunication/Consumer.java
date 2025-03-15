@@ -1,4 +1,4 @@
-package Synchronization;
+package InterThreadCommunication;
 
 // Consumer class
 class Consumer extends Thread {

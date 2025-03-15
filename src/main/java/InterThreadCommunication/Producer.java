@@ -1,4 +1,4 @@
-package Synchronization;
+package InterThreadCommunication;
 
 // Producer class
 class Producer extends Thread {
