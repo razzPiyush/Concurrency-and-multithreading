@@ -14,3 +14,14 @@ class MyRunnable implements Runnable {
         }
     }
 }
+
+/*
+We use runnable interface, as in java we cannot extend 2 classes
+like class A extends B, Thread
+so, we use implementation of runnable interface
+now we cna use class A extends B implements Runnable
+
+Also, runnable interface is a functional interface, functional interface has only one method defined, and we
+can also implement the method in interface itself, so we can use lambda expression, instead of creating a class
+separately, we can implement in main using lambda expression(->)
+ */

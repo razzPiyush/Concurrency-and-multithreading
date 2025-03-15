@@ -13,7 +13,7 @@ class Consumer extends Thread {
         for (int i = 1; i <= 5; i++) {
             queue.consume(); // Consume items
             try {
-                Thread.sleep(500); // Simulate time taken to consume
+                Thread.sleep(1000); // Simulate time taken to consume
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
             }
